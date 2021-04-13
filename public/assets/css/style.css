@@ -1,0 +1,52 @@
+.bar {
+  padding: 10px;
+  margin: 10px;
+  color: #333;
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+.error {
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+}
+.commonTdClass {
+  padding-left:10px
+}
+.containerTableClass {
+  width:100%; 
+  background-color:#d3d3d3;
+}
+.success {
+  color: #4F8A10;
+  background: #DFF2BF;
+  border: 1px solid #4F8A10;
+}
+
+#articles {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#articles td, #articles th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#articles tr:nth-child(even){background-color: #f2f2f2;}
+
+#articles tr:hover {background-color: #ddd;}
+
+#articles th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #039;
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+.card-header {
+  text-align: center;
+}
